@@ -25,20 +25,20 @@ These steps apply to both **Team Leads** and **Developers**.
 
 ### 1️⃣ Clone the Repository
 
-git clone <your-repo-url>
-cd <repo-name>
+>>> git clone <your-repo-url>
+>>> cd <repo-name>
 
 # Create virtual environment
-python -m venv venv
+>>> python -m venv venv
 
 # Activate (Windows)
-.\venv\Scripts\activate
+>>> .\venv\Scripts\activate
 
 # Activate (Mac/Linux)
-source venv/bin/activate
+>>> source venv/bin/activate
 
 # Install the package
-pip install codezen_cli-xx.xx.x-py3-none-any.whl
+>>> pip install codezen_cli-xx.xx.x-py3-none-any.whl
 
 ### Verify Installation
 codezen version
@@ -48,10 +48,10 @@ codezen version
 These steps initialize CodeZen integration for the repository.
 
 1️⃣ Configure Backend URL
-codezen config --backend https://unflutterable-noncurtailing-jaylin.ngrok-free.dev
+>>> codezen config --backend https://unflutterable-noncurtailing-jaylin.ngrok-free.dev
 
 2️⃣ Initialize Repository
-codezen init
+>>> codezen init
 
 3️⃣ Connect GitHub App
 
