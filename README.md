@@ -38,7 +38,7 @@ These steps apply to both **Team Leads** and **Developers**.
 >>> source venv/bin/activate
 
 # Install the package
->>> pip install codezen_cli-xx.xx.x-py3-none-any.whl
+>>> pip install motivity_codezen-xx.xx.x-py3-none-any.whl
 
 ### Verify Installation
 codezen version
